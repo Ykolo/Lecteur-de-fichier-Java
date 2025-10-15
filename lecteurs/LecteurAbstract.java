@@ -1,4 +1,4 @@
-package fichier;
+package fichier.lecteurs;
 
 public class LecteurAbstract {
 
