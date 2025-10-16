@@ -1,6 +1,6 @@
 package fichier;
 
-public class LecteurFichierApp {
+public class FileReaderMain {
   public static void main(String[] args) {
     System.out.println("App");
   }
