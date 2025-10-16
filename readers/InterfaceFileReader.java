@@ -1,6 +1,6 @@
 package fichier.readers;
 
 public interface InterfaceFileReader {
-  void readFile(String path){}
+  void readFile(String path);
 
 }
