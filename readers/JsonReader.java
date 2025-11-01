@@ -1,5 +1,4 @@
 package fichier.readers;
 
-public class JsonReader {
-
+public class JsonReader extends AbstractFileReader {
 }

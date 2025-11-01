@@ -1,5 +1,4 @@
 package fichier.readers;
 
-public class TxtReader {
-
+public class TxtReader extends AbstractFileReader {
 }
