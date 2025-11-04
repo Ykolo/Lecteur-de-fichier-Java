@@ -29,12 +29,18 @@ public class FileReader {
     System.out.println("\n=== À l'envers (lignes) ===");
     csvReader.reverseContent();
 
+    System.out.println("\n=== Palindromique (caractères) ===");
+    csvReader.palindromeContent();
+
     System.out.println("\n\n========== TEST JSON ==========");
     JsonReader jsonReader = new JsonReader();
     jsonReader.readFile("files/test.json");
 
     System.out.println("\n=== À l'endroit ===");
     jsonReader.showContent();
+
+    System.out.println("\n=== À l'envers (lignes) ===");
+    jsonReader.reverseContent();
 
     System.out.println("\n=== Palindromique (caractères) ===");
     jsonReader.palindromeContent();
